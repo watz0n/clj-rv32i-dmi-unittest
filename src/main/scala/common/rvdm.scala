@@ -521,7 +521,7 @@ class rvdm extends Module {
         reg_abstractcs := abstractcs.asUInt
 
         //reg_mrdata_valid := false.B
-        reg_mrdata_requested  := false.B
+        reg_mrdata_requested := false.B
         reg_delay_mrwdata_valid := false.B
         
         io.dmi.resp.bits.resp := dmi_respop.hwfaliure
