@@ -1,0 +1,7 @@
+A simple unit-test example to transfer RISCV instruction through DMI module and validate test result, 
+build this example for [Chisel Learning Journey](https://github.com/librecores/riscv-sodor/wiki/Chisel-Learning-Journey) discussion.
+
+The unit-test code is under `src\test\scala\rv32` directory, and it's simulate [riscv-fesvr](https://github.com/codelec/riscv-fesvr/tree/f9754d8db7d8c1bd659f223017873fb6a25f1257) send commands throught SimDTM.v in [Sodor Project](https://github.com/librecores/riscv-sodor).
+
+Please let me know if you have any question, by email me `watz0n.tw at gmail.com` and open an issue. 
+Or I would check [Chisel Learning Journey](https://github.com/librecores/riscv-sodor/wiki/Chisel-Learning-Journey) messages occasionally.
